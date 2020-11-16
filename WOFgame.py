@@ -418,7 +418,7 @@ class Game(sm.SM):
         rounds = 0
         while playing: 
             rounds += 1
-            if rounds == 1:
+            if rounds == 3:
                 playing = False
                 
             start_player = self.step('start')
